@@ -13,15 +13,23 @@ body {
 
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+}
+
 #principal {
     display: flex;
-    align-items: baseline;
-  
+    align-items: center;
+    justify-content: space-between;
 }
 #lista {
+    display:flex;
     justify-content: flex-end;
-    
+    align-items: center; 
+    list-style: none;   
 }
+
 .teste {
     display: flex;
     flex-direction: row;
