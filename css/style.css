@@ -12,34 +12,20 @@ body {
     font-family: 'Comfortaa',Arial, Helvetica, sans-serif "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans";
 
 }
-#principal {
-    width: 100%;
-    height: 80px;
-    display:flex;
-    font-size: 15px;
-    background-color: black;
-    color: rgb(211, 208, 208);
-}
 
-#principal img {
-    flex: 1;
-    padding: 5px;
-    margin: 0px 10px 10px 0;
+#principal {
+    display: flex;
+    align-items: baseline;
+  
+}
+#lista {
+    justify-content: flex-end;
     
 }
-
-#lista {
-    height: 80px;
-    color: rgb(211, 208, 208);
-    text-decoration: none;
-    display: inline-flex;
+.teste {
+    display: flex;
     flex-direction: row;
-    list-style-type: none;
-    justify-content: flex-end;
-    margin: 0;
-    padding: 0;
 }
-
 #list1 {
     display: block;
     font-size: 30px;
@@ -48,25 +34,6 @@ body {
     border: 2px solid rgb(40, 141, 141);
     background-color: rgb(40, 141, 141);
     padding: 10px 10px 0px 5px;
-}
-#list2 {
-    display: block;
-    font-size: 30px;
-    text-decoration: none;
-    color: white;
-    border: 2px solid rgb(0, 0, 0);
-    background-color: rgb(0, 0, 0);
-    padding: 10px 5px 0px 5px;
-}
-
-#list3 {
-    display: block;
-    font-size: 30px;
-    text-decoration: none;
-    color: white;
-    border: 2px solid rgb(0, 0, 0);
-    background-color: rgb(0, 0, 0);
-    padding: 10px 5px 0px 10px;
 }
 
 #back {
@@ -93,3 +60,6 @@ body {
     padding: 50px;
 }
 
+#icones {
+    display: flex;
+}
