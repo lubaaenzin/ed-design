@@ -13,19 +13,23 @@ body {
 
 }
 #principal {
-    display:inline-flex;
+    width: 100%;
+    height: 80px;
+    display:flex;
     font-size: 15px;
     background-color: black;
     color: rgb(211, 208, 208);
 }
 
 #principal img {
+    flex: 1;
     padding: 5px;
     margin: 0px 10px 10px 0;
     
 }
 
 #lista {
+    height: 80px;
     color: rgb(211, 208, 208);
     text-decoration: none;
     display: inline-flex;
@@ -65,11 +69,6 @@ body {
     padding: 10px 5px 0px 10px;
 }
 
-
-.ativo {
-}
-
-
 #back {
     background-image: url(../img/background.png);
     background-size: 100%;
@@ -94,40 +93,3 @@ body {
     padding: 50px;
 }
 
-#final {
-    color: white;
-    background-color: #000;
-    display: inline-block;
-    margin: 0px;
-
-}
-
-#estartando {
-    color: white;
-    background-color: #000;
-    display:inline-flex;
-    margin: 0px;
-}
-#icones ul{
-    display: inline-flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    color: white;
-    background: #000;
-    margin: 0px;
-}
-
-#icones li {
-    text-decoration: none;
-}
-
-.list1{ 
-    padding: 10px 10px 0px 5px;
-
-}
-.list2{
-    padding: 10px 5px 0px 5px;
-}
-.list3{
-    padding: 10px 5px 0px 10px;
-}
